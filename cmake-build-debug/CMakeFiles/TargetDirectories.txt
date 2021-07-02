@@ -1,0 +1,8 @@
+/home/alex/topics__private/aa/PlatForm/cmake-build-debug/CMakeFiles/install/strip.dir
+/home/alex/topics__private/aa/PlatForm/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/alex/topics__private/aa/PlatForm/cmake-build-debug/CMakeFiles/platfm.dir
+/home/alex/topics__private/aa/PlatForm/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/alex/topics__private/aa/PlatForm/cmake-build-debug/CMakeFiles/list_install_components.dir
+/home/alex/topics__private/aa/PlatForm/cmake-build-debug/CMakeFiles/install/local.dir
+/home/alex/topics__private/aa/PlatForm/cmake-build-debug/CMakeFiles/install.dir
+/home/alex/topics__private/aa/PlatForm/cmake-build-debug/CMakeFiles/platfm_autogen.dir

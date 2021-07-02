@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="platfm"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\Qt5.12.10\;CMake Files\..\..\..\Qt5.12.10\5.12.10\;CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\;CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\;CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\;CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5\;CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\;CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Core\;CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5LinguistTools\;CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Qml\;CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Network\;CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Quick\;CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5OpenGL\;CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Xml\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/alex/topics__private/aa/PlatForm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/alex/topics__private/aa/PlatForm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/alex/topics__private/aa/PlatForm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="platfm">
+				<Option output="/home/alex/topics__private/aa/PlatForm/bin/platfm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alex/topics__private/aa/PlatForm/cmake-build-debug/../bin"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_QUICK_LIB"/>
+					<Add directory="/home/alex/topics__private/aa/PlatForm/cmake-build-debug"/>
+					<Add directory="/home/alex/topics__private/aa/PlatForm"/>
+					<Add directory="/home/alex/topics__private/aa/PlatForm/cmake-build-debug/platfm_autogen/include"/>
+					<Add directory="/home/alex/topics__private/aa/PlatForm/libHello"/>
+					<Add directory="/home/alex/topics__private/aa/PlatForm/F:/win10/Qt5.12.3/5.12.3/msvc2017/include/QtWidgets"/>
+					<Add directory="/home/alex/topics__private/aa/PlatForm/ON"/>
+					<Add directory="/home/alex/topics__private/aa/PlatForm/."/>
+					<Add directory="/home/alex/topics__private/aa/PlatForm/./common"/>
+					<Add directory="/home/alex/topics__private/aa/PlatForm/./tools"/>
+					<Add directory="/home/alex/topics__private/aa/PlatForm/./ui"/>
+					<Add directory="/home/alex/topics__private/aa/PlatForm/utility"/>
+					<Add directory="/home/alex/installCv3414Ubun2104FullNew/include"/>
+					<Add directory="/home/alex/installCv3414Ubun2104FullNew/include/opencv"/>
+					<Add directory="/home/alex/installCv3414Ubun2104FullNew/include/opencv2"/>
+					<Add directory="/home/alex/halcon-19.11.0.0-linux/include/halconcpp"/>
+					<Add directory="/home/alex/halcon-19.11.0.0-linux/include"/>
+					<Add directory="/home/alex/topics__private/aa/PlatForm/thirdPart"/>
+					<Add directory="/home/alex/topics__private/aa/PlatForm/MathFunctions"/>
+					<Add directory="/home/alex/topics__private/aa/PlatForm/gen_kcd"/>
+					<Add directory="/home/alex/topics__private/aa/PlatForm/usages"/>
+					<Add directory="/home/alex/Qt5.12.10/5.12.10/gcc_64/include"/>
+					<Add directory="/home/alex/Qt5.12.10/5.12.10/gcc_64/include/QtCore"/>
+					<Add directory="/home/alex/Qt5.12.10/5.12.10/gcc_64/./mkspecs/linux-g++"/>
+					<Add directory="/home/alex/Qt5.12.10/5.12.10/gcc_64/include/QtWidgets"/>
+					<Add directory="/home/alex/Qt5.12.10/5.12.10/gcc_64/include/QtGui"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/home/alex/Qt5.12.10/5.12.10/gcc_64/include/QtQml"/>
+					<Add directory="/home/alex/Qt5.12.10/5.12.10/gcc_64/include/QtNetwork"/>
+					<Add directory="/home/alex/Qt5.12.10/5.12.10/gcc_64/include/QtQuick"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 platfm"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="platfm/fast">
+				<Option output="/home/alex/topics__private/aa/PlatForm/bin/platfm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alex/topics__private/aa/PlatForm/cmake-build-debug/../bin"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_QUICK_LIB"/>
+					<Add directory="/home/alex/topics__private/aa/PlatForm/cmake-build-debug"/>
+					<Add directory="/home/alex/topics__private/aa/PlatForm"/>
+					<Add directory="/home/alex/topics__private/aa/PlatForm/cmake-build-debug/platfm_autogen/include"/>
+					<Add directory="/home/alex/topics__private/aa/PlatForm/libHello"/>
+					<Add directory="/home/alex/topics__private/aa/PlatForm/F:/win10/Qt5.12.3/5.12.3/msvc2017/include/QtWidgets"/>
+					<Add directory="/home/alex/topics__private/aa/PlatForm/ON"/>
+					<Add directory="/home/alex/topics__private/aa/PlatForm/."/>
+					<Add directory="/home/alex/topics__private/aa/PlatForm/./common"/>
+					<Add directory="/home/alex/topics__private/aa/PlatForm/./tools"/>
+					<Add directory="/home/alex/topics__private/aa/PlatForm/./ui"/>
+					<Add directory="/home/alex/topics__private/aa/PlatForm/utility"/>
+					<Add directory="/home/alex/installCv3414Ubun2104FullNew/include"/>
+					<Add directory="/home/alex/installCv3414Ubun2104FullNew/include/opencv"/>
+					<Add directory="/home/alex/installCv3414Ubun2104FullNew/include/opencv2"/>
+					<Add directory="/home/alex/halcon-19.11.0.0-linux/include/halconcpp"/>
+					<Add directory="/home/alex/halcon-19.11.0.0-linux/include"/>
+					<Add directory="/home/alex/topics__private/aa/PlatForm/thirdPart"/>
+					<Add directory="/home/alex/topics__private/aa/PlatForm/MathFunctions"/>
+					<Add directory="/home/alex/topics__private/aa/PlatForm/gen_kcd"/>
+					<Add directory="/home/alex/topics__private/aa/PlatForm/usages"/>
+					<Add directory="/home/alex/Qt5.12.10/5.12.10/gcc_64/include"/>
+					<Add directory="/home/alex/Qt5.12.10/5.12.10/gcc_64/include/QtCore"/>
+					<Add directory="/home/alex/Qt5.12.10/5.12.10/gcc_64/./mkspecs/linux-g++"/>
+					<Add directory="/home/alex/Qt5.12.10/5.12.10/gcc_64/include/QtWidgets"/>
+					<Add directory="/home/alex/Qt5.12.10/5.12.10/gcc_64/include/QtGui"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/home/alex/Qt5.12.10/5.12.10/gcc_64/include/QtQml"/>
+					<Add directory="/home/alex/Qt5.12.10/5.12.10/gcc_64/include/QtNetwork"/>
+					<Add directory="/home/alex/Qt5.12.10/5.12.10/gcc_64/include/QtQuick"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 platfm/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/alex/topics__private/aa/PlatForm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/alex/topics__private/aa/PlatForm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/alex/topics__private/aa/PlatForm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/alex/topics__private/aa/PlatForm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="platfm_autogen">
+				<Option working_dir="/home/alex/topics__private/aa/PlatForm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 platfm_autogen"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/alex/topics__private/aa/PlatForm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/cmake-build-debug/platfm_autogen/EWIEGA46WW/qrc_pro.cpp">
+			<Option target="platfm"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/cmake-build-debug/platfm_autogen/EWIEGA46WW/qrc_pro.cpp.rule">
+			<Option target="platfm"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/cmake-build-debug/platfm_autogen/mocs_compilation.cpp">
+			<Option target="platfm"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/common/commonfunc.cpp">
+			<Option target="platfm"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/common/commonfunc.h">
+			<Option target="platfm"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/main.cpp">
+			<Option target="platfm"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/pro.qrc">
+			<Option target="platfm"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/test.cpp">
+			<Option target="platfm"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/test.h">
+			<Option target="platfm"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/tools/ImageSourceManager.cpp">
+			<Option target="platfm"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/tools/ImageSourceManager.h">
+			<Option target="platfm"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/tools/ToolBasic.cpp">
+			<Option target="platfm"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/tools/ToolBasic.h">
+			<Option target="platfm"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/tools/ToolNameLst.cpp">
+			<Option target="platfm"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/tools/ToolNameLst.h">
+			<Option target="platfm"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/tools/ToolProducer.cpp">
+			<Option target="platfm"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/tools/ToolProducer.h">
+			<Option target="platfm"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/tools/mainapp.cpp">
+			<Option target="platfm"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/tools/mainapp.h">
+			<Option target="platfm"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/ui/mainwindow.cpp">
+			<Option target="platfm"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/ui/mainwindow.h">
+			<Option target="platfm"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/ui/mainwindow.ui">
+			<Option target="platfm"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/utility/utilities.cpp">
+			<Option target="platfm"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/utility/utilities.h">
+			<Option target="platfm"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/pro.qrc">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeEglPlatformIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5LinguistTools\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5LinguistTools\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5LinguistTools\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Qml/Qt5QmlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Qml/Qt5QmlConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QDebugMessageServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QLocalClientConnectionFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebugServerFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebuggerServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlInspectorServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugConnectorFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlPreviewServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlProfilerServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQuickProfilerAdapterFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QTcpServerConnectionFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Quick/Qt5QuickConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Quick\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Quick/Qt5QuickConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Quick\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5OpenGL\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5OpenGL\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Xml/Qt5XmlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Xml\"/>
+		</Unit>
+		<Unit filename="/home/alex/topics__private/aa/PlatForm/../../../Qt5.12.10/5.12.10/gcc_64/lib/cmake/Qt5Xml/Qt5XmlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.12.10\5.12.10\gcc_64\lib\cmake\Qt5Xml\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,22 @@
+"/home/alex/bin2104/JetBrains CLion 2019.3.4 Linux64/clion-2019.3.4/bin/cmake/linux/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/alex/topics__private/aa/PlatForm
+-- The CXX compiler identification is GNU 10.3.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+(lk)___________show: PROJECT_SOURCE_DIR____________________  
+/home/alex/topics__private/aa/PlatForm
+(lk)___________show: PROJECT_SOURCE_DIR finish ____________  
+(0)(lk)________ Qt5 _______:  
+  find   qt5   finish.
+
+
+-- Could NOT find opencv (missing: opencv_DIR)
+(6)(lk)__________ project ___________:  
+project info(lk):  
+platfm
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/alex/topics__private/aa/PlatForm/cmake-build-debug
